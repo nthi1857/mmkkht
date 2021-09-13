@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/carousel-slide.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
@@ -18,7 +20,7 @@
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="77">
     <nav class="navbar navbar-light navbar-expand-md fixed-top" id="mainNav" style="background: rgba(0,0,0,0.5);">
-        <div class="container"><a class="navbar-brand" href="#">Munkásművelődési Központ<br></a><button data-bs-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-bs-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
+        <div class="container"><img src="assets/img/logo.png" style="width: 8%;height: auto;"><a class="navbar-brand" href="#" style="padding-left: 5px;">Munkásművelődési Központ<br></a><button data-bs-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-bs-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item nav-link m-auto"><a class="nav-link active border rounded-pill" href="#about">Bemutatkozás<br></a></li>
@@ -30,7 +32,7 @@
             </div>
         </div>
     </nav>
-    <header class="masthead" style="background-image:linear-gradient(to left, #b92b27, #1565C0);">
+    <header class="masthead" style="background-image: linear-gradient(to left, #b92b27, #1565C0);padding-top: 200px;">
         <div class="intro-body">
             <div class="container">
                 <div class="row">
@@ -42,11 +44,44 @@
             </div>
         </div>
     </header>
+    <section id="carousel" style="background-image: linear-gradient(to left, #b92b27, #1565C0);padding: 0px 50px;">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel-1" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <div class="bg-light border rounded border-light pulse animated hero-nature carousel-hero jumbotron py-5 px-4">
+                        <h1 class="hero-title">Hero Nature</h1>
+                        <p class="hero-subtitle">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="bg-light border rounded border-light pulse animated hero-photography carousel-hero jumbotron py-5 px-4">
+                        <h1 class="hero-title">Hero Photography</h1>
+                        <p class="hero-subtitle">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <div class="bg-light border rounded border-light pulse animated hero-technology carousel-hero jumbotron py-5 px-4">
+                        <h1 class="hero-title">Hero Technology</h1>
+                        <p class="hero-subtitle">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carousel-1" data-bs-slide-to="0"></li>
+                <li data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carousel-1" data-bs-slide-to="2" class="active"></li>
+            </ol>
+        </div>
+    </section>
     <section class="text-center content-section" id="about" style="background: linear-gradient(to left, #b92b27, #1565C0);padding: 100px 0px;">
         <div class="container">
             <h2><strong>Bemutatkozás</strong></h2>
             <div class="row">
-                <div class="col-lg-4 col-xxl-4 m-auto d-block"><img src="assets/img/intro%20pics/0000004261.jpeg" style="width: 322px;height: 254px;"></div>
+                <div class="col-sm-9 col-lg-5 col-xl-5 col-xxl-5 m-auto d-block"><img class="table-responsive responsive" src="assets/img/intro%20pics/0000004261.jpeg" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"></div>
                 <div class="col-lg-7 mx-auto" style="padding: 0px;margin: 0px;">
                     <p>A dunaújvárosi Munkásművelődési Központ Nonprofit Kft. 1974-től – a város és környéke kultúrát szerető és művelő közönségét, közösségeit szolgálja, az itt élők művelődési igényeit hívatott kielégíteni korra és nemre való tekintet nélkül.</p>
                     <p>A kultúra közvetítésének speciális helyszínéül szolgáló intézményt 1974-ben adták át rendeltetésének, ami megnyitása óta kettős – részben városi, részben szakszervezeti működtetésű.</p>
@@ -60,10 +95,10 @@
                     <p>A parkosított udvarunkkal, ahol színpad is található, bővítettük csoportjaink közösségi terét. Korszerű internetes hálózatot építettünk ki, mellyel szabad internet-használati lehetőséget biztosítunk a betérő vendégeinknek, a free-wifi hálózattal az intézmény és az udvar is teljes lefedettséget kapott, így minden korosztály az igényei szerint kellemes környezetben töltheti szabadidejét.</p>
                     <p>A már több éve működő klubjaink, szakköreink és egyéb kisközösségeink tevékenységét segítjük, a szakmai felügyeleten túl, közreműködünk programjaik szervezésében, bonyolításában.</p>
                 </div>
-                <div class="col-lg-4 col-xxl-4 m-auto d-block"><img src="assets/img/intro%20pics/OZ_4564-1.jpeg" style="width: 320px;height: 247px;margin-bottom: 0px;margin-left: 0px;"></div>
+                <div class="col-sm-9 col-lg-5 col-xl-5 col-xxl-5 m-auto d-block"><img class="table-responsive responsive" src="assets/img/intro%20pics/OZ_4564-1.jpeg" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"></div>
             </div>
             <div class="row" style="margin: 25px 0px 0px -12px;">
-                <div class="col-lg-4 col-xxl-4 m-auto d-block"><img src="assets/img/intro%20pics/0000005013.jpeg" style="width: 320px; height: 245px;"></div>
+                <div class="col-sm-9 col-lg-5 col-xl-5 col-xxl-5 m-auto d-block"><img class="table-responsive responsive" src="assets/img/intro%20pics/0000005013.jpeg" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"></div>
                 <div class="col-lg-7 mx-auto" style="padding: 0px;margin: 0px;">
                     <p>Továbbra is támogatjuk művészeti csoportjaink munkáját, aktív közreműködői vagyunk elképzeléseik megvalósításában, kiemelt feladatunk, hogy bemutatkozási lehetőséget biztosítsunk számukra.</p>
                     <p>MMK Galéria névvel új kiállító teret hoztunk létre 2015-ben, ahol fiatal hazai alkotók munkáin kívül más nemzetek alkotói számára is a bemutatkozás lehetőségét biztosítunk.</p>
@@ -80,16 +115,16 @@
                 <p class="text-center" style="color: rgb(255,255,255);">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
             </div>
             <div class="row photos" data-bss-baguettebox="">
-                <div class="col-sm-6 col-md-4 col-lg-3 item m-auto"><a href="assets/img/events%20pics/igyunk__N.jpeg"><img class="img-fluid" src="assets/img/events%20pics/igyunk__N.jpeg" alt="Igyunk rá!">
+                <div class="col-sm-6 col-md-4 col-lg-3 item m-auto"><a href="assets/img/events%20pics/igyunk__N.jpeg"><img class="img-fluid zoom" src="assets/img/events%20pics/igyunk__N.jpeg" alt="Igyunk rá!">
                         <p class="m-auto d-block" style="font-size: 25px;color: rgb(255,255,255);">Igyunk rá!</p>
                     </a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item m-auto"><a href="assets/img/events%20pics/Kiallitas-n.jpeg"><img class="img-fluid" src="assets/img/events%20pics/Kiallitas-n.jpeg">
+                <div class="col-sm-6 col-md-4 col-lg-3 item m-auto"><a href="assets/img/events%20pics/Kiallitas-n.jpeg"><img class="img-fluid zoom" src="assets/img/events%20pics/Kiallitas-n.jpeg">
                         <p class="m-auto d-block" style="font-size: 25px;color: rgb(255,255,255);">Az ősi hunok nyomában- Fotókiállítás</p>
                     </a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item m-auto"><a href="assets/img/events%20pics/felvteli_nagy.jpeg"><img class="img-fluid" src="assets/img/events%20pics/felvteli_nagy.jpeg">
+                <div class="col-sm-6 col-md-4 col-lg-3 item m-auto"><a href="assets/img/events%20pics/felvteli_nagy.jpeg"><img class="img-fluid zoom" src="assets/img/events%20pics/felvteli_nagy.jpeg">
                         <p class="m-auto d-block" style="font-size: 25px;color: rgb(255,255,255);">DVT néptánc felvételi</p>
                     </a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item m-auto"><a href="assets/img/events%20pics/nepdalkor_nagy.jpeg"><img class="img-fluid" src="assets/img/events%20pics/nepdalkor_nagy.jpeg">
+                <div class="col-sm-6 col-md-4 col-lg-3 item m-auto"><a href="assets/img/events%20pics/nepdalkor_nagy.jpeg"><img class="img-fluid zoom" src="assets/img/events%20pics/nepdalkor_nagy.jpeg">
                         <p class="m-auto d-block" style="font-size: 25px;color: rgb(255,255,255);">Népdalkörök találkozója</p>
                     </a></div>
             </div>
@@ -119,13 +154,13 @@
             </div>
             <div class="row people">
                 <div class="col-md-6 col-lg-4 item m-auto d-block" style="width: 323.984px;">
-                    <div class="box" style="width: 300px;height: 300px;"><img class="rounded-circle" src="assets/img/1485883_1423229814579098_1808748670_o.jpeg" style="width: 160px;height: 160px;">
+                    <div class="box" style="width: 300px;height: 300px;"><img class="rounded-circle" src="assets/img/1485883_1423229814579098_1808748670_o.jpeg" style="width: 160px;height: 160px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                         <h3 class="name" style="margin-top: 30px;">Kováts Rózsa<br></h3>
                         <p class="title" style="margin-top: 0px;margin-bottom: 0px;height: 35px;">Ügyvezető igazgató</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 item m-auto" style="width: 323.984px;">
-                    <div class="box" style="height: 300px;width: 300px;"><img class="rounded-circle" src="assets/img/107343103_320928705740538_140811729113642587_n.jpeg" style="width: 160px;">
+                    <div class="box" style="height: 300px;width: 300px;"><img class="rounded-circle" src="assets/img/107343103_320928705740538_140811729113642587_n.jpeg" style="width: 160px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                         <h3 class="name" style="margin-top: 15px;margin-bottom: 20px;">Sinszkiné Kard Gabriella</h3>
                         <p class="title" style="margin-bottom: 0px;height: 35px;">Gazdasági ügyintéző</p>
                     </div>
@@ -139,6 +174,7 @@
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
     <script src="assets/js/grayscale.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
