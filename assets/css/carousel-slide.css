@@ -8,16 +8,48 @@ div.jumbotron.carousel-hero {
   margin-bottom: 0;
 }
 
-div.jumbotron.hero-nature {
-  background-image: url('../../assets/img/architect-at-the-construction.jpg');
+div.jumbotron.pic1 {
+  background-image: url('../../assets/img/Gallery/P1240208.jpg');
 }
 
-div.jumbotron.hero-photography {
-  background-image: url('../../assets/img/architects-and-worker.jpg');
+div.jumbotron.pic2 {
+  background-image: url('../../assets/img/Gallery/P1070769.jpg');
 }
 
-div.jumbotron.hero-technology {
-  background-image: url('../../assets/img/young-college-students.jpg');
+div.jumbotron.pic3 {
+  background-image: url('../../assets/img/Gallery/P1060925.jpg');
+}
+
+div.jumbotron.pic4 {
+  background-image: url('../../assets/img/Gallery/P1060926.jpg');
+}
+
+div.jumbotron.pic5 {
+  background-image: url('../../assets/img/Gallery/P1070134.jpg');
+}
+
+div.jumbotron.pic6 {
+  background-image: url('../../assets/img/Gallery/P1080125.jpg');
+}
+
+div.jumbotron.pic7 {
+  background-image: url('../../assets/img/Gallery/P1080145.jpg');
+}
+
+div.jumbotron.pic8 {
+  background-image: url('../../assets/img/Gallery/P1240207.jpg');
+}
+
+div.jumbotron.pic9 {
+  background-image: url('../../assets/img/Gallery/P1300156.jpg');
+}
+
+div.jumbotron.pic10 {
+  background-image: url('../../assets/img/Gallery/P1300249.jpg');
+}
+
+div.jumbotron.pic11 {
+  background-image: url('../../assets/img/Gallery/P1300604.jpg');
 }
 
 h1.hero-title, h2.hero-title, h3.hero-title {
