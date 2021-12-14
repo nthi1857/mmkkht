@@ -9,7 +9,7 @@ div.jumbotron.carousel-hero {
 }
 
 div.jumbotron.pic1 {
-  background-image: url('../../assets/img/Gallery/P1240208.jpg');
+  background-image: url('../../assets/img/Gallery/P1060925.jpg');
 }
 
 div.jumbotron.pic2 {
@@ -17,7 +17,7 @@ div.jumbotron.pic2 {
 }
 
 div.jumbotron.pic3 {
-  background-image: url('../../assets/img/Gallery/P1060925.jpg');
+  background-image: url('../../assets/img/Gallery/P1240208.jpg');
 }
 
 div.jumbotron.pic4 {
@@ -50,18 +50,6 @@ div.jumbotron.pic10 {
 
 div.jumbotron.pic11 {
   background-image: url('../../assets/img/Gallery/P1300604.jpg');
-}
-
-h1.hero-title, h2.hero-title, h3.hero-title {
-  text-shadow: 0 3px 3px rgba(0,0,0,0.4);
-  color: #ff0000;
-}
-
-p.hero-subtitle {
-  max-width: 600px;
-  margin: 25px auto;
-  padding: 10px 15px;
-  color: #00fff0;
 }
 
 .plat {
